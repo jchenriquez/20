@@ -29,7 +29,7 @@ func isValid(s string) bool {
 		}
 	}
 
-	return true
+	return len(stack) == 0
 }
 
 func main() {
